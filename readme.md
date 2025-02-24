@@ -11,7 +11,7 @@ The following lines contain a first name, last name, and the grades.
 
 # StandardGradebook  
 ## Constructor
-The constructor will take a String that gives the path for the data file.  
+The constructor will take a String that gives the path for the data file.  You can test your work on the sample data, but it should also work on any other file that is properly formatted.  
 The constructor should initialize arrays for the names of the students and their grades.  
 The grades *must* be stored in a 2D array.
 
@@ -33,7 +33,7 @@ This will calculate the average for the entire class.  It should work using the 
 
 # DropLowestGradebook
 This should have the same methods as StandardGradebook, but calculate studentAverage differently.  
-In this calculation, for the sample data, studentAverage(0) would return 58.5
+In this calculation, for the sample data, studentAverage(0) would return 99  
 If there is only one grade in the gradebook, it should NOT drop that grade.  
 
 # Grading  
@@ -44,7 +44,10 @@ Code should follow appropriate formatting for whitespace and tabs.
 At least 3 per day.  
 
 ## Structure (2 pts)
-Minimal repetition of code.  
+Minimal repetition of code using inheritance.  
+
+## Testing (1 pt)  
+Test studentAverage, assignmentAverage, and classAverage using JUnit testing.  
 
 ## Code
 * constructors (3 pts)
